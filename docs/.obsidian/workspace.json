@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tailwind CSS/Text Overflow.md",
+                "file": "Tailwind CSS/Text Indent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Text Overflow"
+              "title": "Text Indent"
             }
           }
         ],
@@ -223,8 +223,8 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "Tailwind CSS/Text Transform.md",
     "Tailwind CSS/Text Overflow.md",
+    "Tailwind CSS/Text Transform.md",
     "Tailwind CSS/Text Wrap.md",
     "Tailwind CSS/Text Indent.md",
     "Tailwind CSS/Text Underline Offset.md",
