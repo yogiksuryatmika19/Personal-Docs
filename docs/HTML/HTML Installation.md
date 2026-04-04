@@ -1,6 +1,7 @@
-1. Buka VS Code → klik **File > New File**.
-2. Simpan dengan nama `index.html`.
-3. Tulis kode berikut.
+1. Buka VS Code
+2. klik **File > New File**.
+3. Simpan dengan nama `index.html`.
+4. Tulis kode berikut.
 
 	```html
 	<!DOCTYPE html>
@@ -15,6 +16,6 @@
 	</html>
 	```
 
-4. Klik kanan file → pilih **Open with Live Server** (jika ekstensi terpasang).
-5. Browser akan menampilkan halaman HTML.
-6. Done!
+5. Klik kanan file → pilih **Open with Live Server** (jika ekstensi terpasang).
+6. Browser akan menampilkan halaman HTML.
+7. Done!
