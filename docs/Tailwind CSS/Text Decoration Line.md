@@ -1,8 +1,8 @@
 # text-decoration-line
 
-| Kelas          | Deskripsi                    | Contoh Hasil |
-| -------------- | ---------------------------- | ------------ |
-| `underline`    | Garis bawah teks             | _Hello_      |
-| `overline`     | Garis di atas teks           | ‾Hello‾      |
-| `line-through` | Coret tengah (strikethrough) | ~~Hello~~    |
-| `no-underline` | Menghapus underline          | Hello        |
+| Kelas          | Deskripsi                    |
+| -------------- | ---------------------------- |
+| `underline`    | Garis bawah teks             |
+| `overline`     | Garis di atas teks           |
+| `line-through` | Coret tengah (strikethrough) |
+| `no-underline` | Underline none               |
