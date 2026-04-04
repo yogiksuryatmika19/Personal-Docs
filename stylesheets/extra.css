@@ -49,9 +49,8 @@
     color: #6791e0;
 }
 
-/* animasi highlight saat anchor dituju */
-:target {
-    animation: fadeHighlight 2s ease-out;
+.toc-highlight {
+    animation: fadeHighlight 1s ease-out;
 }
 
 @keyframes fadeHighlight {
