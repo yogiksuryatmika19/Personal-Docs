@@ -1,6 +1,0 @@
-| Value       | Example                       |
-| ----------- | ----------------------------- |
-| border-box  | background-clip: border-box;  |
-| padding-box | background-clip: padding-box; |
-| content-box | background-clip: content-box; |
-| text        | background-clip: text;        |
