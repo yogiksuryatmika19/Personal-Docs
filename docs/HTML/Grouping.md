@@ -1,3 +1,10 @@
+Pada HTML dapat melakukan grouping dengan cara berbeda antara lain sebagai berikut
+
+| Grouping | Keterangan      |
+| -------- | --------------- |
+| `<div>`  | Grouping block  |
+| `<span>` | Grouping inline |
+
 ## Div
 
 `<div>` adalah element yang digunakan untuk grouping secara block. `<div>` biasanya dijadikan element parent sebagai container untuk membungkus element lain didalamnya

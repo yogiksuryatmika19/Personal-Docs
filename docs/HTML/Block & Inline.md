@@ -1,3 +1,10 @@
+Pada HTML, secara display element dibagi kedalam 2 kategori antara lain sebagai berikut
+
+| Element Display |
+| --------------- |
+| Block           |
+| Inline          |
+
 ## Block
 
 - Element block akan selalu membuat baris baru ketika dibuat

@@ -31,12 +31,12 @@ Table complex terdiri dari beberapa hal berikut ini
 
 ## Atribut Table
 
-| Atribut Table | Keterangan |
-| ------------- | ---------- |
-| `cellpadding` |            |
-| `cellspacing` |            |
-| `colspan`     |            |
-| `rowspan`     |            |
+| Atribut Table | Keterangan         |
+| ------------- | ------------------ |
+| `cellpadding` | Padding antar cell |
+| `cellspacing` | Spasi antar cell   |
+| `colspan`     | Merge kolom        |
+| `rowspan`     | Merge baris        |
 
 ### cellspacing
 
