@@ -71,10 +71,10 @@ Berikut adalah implementasi dari atribut `method` pada form
 
 `autocomplete` adalah artibut yang berfungsi menampilkan atau tidaknya history input yang prenah dimasukkan user
 
-| Value |
-| ----- |
-| `on`  |
-| `off` |
+| Value | Keterangan       |
+| ----- | ---------------- |
+| `on`  | Autocomplete on  |
+| `off` | Autocomplete off |
 
 Berikut adalah contoh implementasi dari atribut autocomplete pada form
 

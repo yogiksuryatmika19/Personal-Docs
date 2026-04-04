@@ -16,7 +16,7 @@ Berikut adalah atribut dari `<textarea>`
 Berikut adalah implementasi dari element `<textarea>`
 
 ```html
-<textarea name="message" rows="10" cols="30">  
+<textarea id="message" name="message">  
 The cat was playing in the garden.  
 </textarea>
 ```
