@@ -4,6 +4,7 @@
 
 .md-footer * {
     font-size: 0.7rem;
+    position: relative !important;
 }
 
 /* kode inline di tabel tetap cyan */

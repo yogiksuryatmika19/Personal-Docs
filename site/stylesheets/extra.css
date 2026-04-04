@@ -1,6 +1,9 @@
 .md-content__inner {
     font-size: 0.8rem;
-    margin-bottom: 150px;
+}
+
+.md-footer * {
+    font-size: 0.7rem;
 }
 
 /* kode inline di tabel tetap cyan */

@@ -37,7 +37,7 @@ Berikut adalah contoh penggunaan atribut `target`
 > Membuka link pada tab browser baru
 
 ```html
-<a href="https://www.google.com" target="_blank">Kunjungi Google</a>
+target="_blank"
 ```
 
 ## Example
@@ -65,11 +65,15 @@ Page anchor adalah penggunaan link untuk menautkan link dengan bagian dari suatu
 Berikut adalah langkah-langkah membuat page anchor
 
 1. Pertama, buat element dengan atribut `id`
+
+	```html
+	<a href="#section1">Lihat Bagian 1</a>
+	```
+
 2. Kemudian, buat element `<a>` dengan atribut `href` yang mengacu pada id dari element yang ingin dituju menggunakan `#` 
+
+	```html
+	<p id="section1">Ini adalah bagian pertama.</p>
+	```
+
 3. Done!
-
-```html
-<a href="#section1">Lihat Bagian 1</a>
-
-<p id="section1">Ini adalah bagian pertama.</p>
-```

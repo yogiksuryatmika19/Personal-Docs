@@ -1,6 +1,6 @@
 ## Atribut
 
-Berikut adalah atribut yang sering digunakan pada HTML
+Atribut adalah informasi tambahan yang menempel pada tag / element. Berikut adalah atribut yang sering digunakan pada HTML
 
 | Atribut | Keterangan                                                           |
 | ------- | -------------------------------------------------------------------- |
