@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "HTML Installation"
             }
+          },
+          {
+            "id": "66d1730ff322d063",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              },
+              "icon": "lucide-file",
+              "title": "https://www.make.md/static/latest.md"
+            }
+          },
+          {
+            "id": "e8d28b437c5c225d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "HTML"
+              },
+              "icon": "lucide-file",
+              "title": "HTML"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,8 +98,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "0299d5656640a4e7",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -94,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/HTML Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HTML Installation"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +148,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/HTML Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HTML Installation"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +190,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/HTML Installation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTML Installation"
+              "title": "Outline"
             }
           }
         ]
@@ -183,8 +216,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "f8585da06f7ceb75",
+  "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "HTML/HTML Installation.md"
+    "HTML/Struktur File HTML.md",
+    "HTML/HTML Installation.md",
+    "Tags"
   ]
 }
