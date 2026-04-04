@@ -37,14 +37,12 @@
             "id": "e8d28b437c5c225d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "HTML/Input Atribut.md",
-                "mode": "source",
-                "source": false
+                "path": "Images"
               },
               "icon": "lucide-file",
-              "title": "Input Atribut"
+              "title": "Images"
             }
           }
         ],
@@ -223,9 +221,13 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "HTML/Input Type.md",
-    "HTML/Input Atribut.md",
+    "CSS/New Text Document.txt",
+    "CSS",
+    "New folder",
+    "Tailwind CSS",
     "HTML/HTML.md",
+    "HTML/Input Atribut.md",
+    "HTML/Input Type.md",
     "HTML/Input.md",
     "HTML/Audio.md",
     "HTML/Video.md",
@@ -252,7 +254,6 @@
     "stylesheets/New Text Document.txt",
     "HTML/Paragraph.md",
     "HTML/Comment.md",
-    "HTML/Formatting.md",
     "Images/Pasted image 20260404104316.png",
     "Images/Pasted image 20260404104238.png",
     "Images",
