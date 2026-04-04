@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Comment.md",
+                "file": "HTML/Link.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comment"
+              "title": "Link"
             }
           }
         ],
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/Comment.md",
+                "file": "HTML/Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Comment"
+              "title": "Backlinks for Link"
             }
           },
           {
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/Comment.md",
+                "file": "HTML/Link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comment"
+              "title": "Outgoing links from Link"
             }
           },
           {
@@ -194,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Comment.md",
+                "file": "HTML/Link.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comment"
+              "title": "Outline of Link"
             }
           }
         ]
@@ -223,10 +223,10 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "HTML/Formatting.md",
-    "HTML/Paragraph.md",
     "HTML/Comment.md",
+    "HTML/Formatting.md",
     "HTML/Link.md",
+    "HTML/Paragraph.md",
     "HTML/Table.md",
     "HTML/Image.md",
     "HTML/Atribut.md",

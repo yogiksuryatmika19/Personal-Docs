@@ -11,7 +11,7 @@ Berikut adalah tag / element terkait formatting
 `<b>` adalah tag / element yang digunakan untuk membuat teks bercetak tebal (bold)
 
 ```html
-
+<p>Ini adalah teks <b>penting</b> yang dicetak tebal.</p>
 ```
 
 ## Italic
@@ -19,7 +19,7 @@ Berikut adalah tag / element terkait formatting
 `<i>` adalah tag / element yang digunakan untuk membuat teks bercetak miring (italic)
 
 ```html
-
+<p>Kata <i>italic</i> berarti miring.</p>
 ```
 
 ## Underline
@@ -27,5 +27,5 @@ Berikut adalah tag / element terkait formatting
 `<u>` adalah tag / element yang digunakan untuk membuat teks bergaris bawah (underline)
 
 ```html
-
+<p>Ini adalah teks <u>bergaris bawah</u>.</p>
 ```
