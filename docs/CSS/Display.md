@@ -1,0 +1,6 @@
+| Value        | Example Code           |
+| ------------ | ---------------------- |
+| block        | display: block;        |
+| inline       | display: inline;       |
+| inline-block | display: inline-block; |
+| none         | display: none;         |

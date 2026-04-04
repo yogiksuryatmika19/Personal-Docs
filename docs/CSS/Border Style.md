@@ -1,0 +1,12 @@
+| Value  | Example               |
+| ------ | --------------------- |
+| none   | border-style: none;   |
+| solid  | border-style: solid;  |
+| dotted | border-style: dotted; |
+| dashed | border-style: dashed; |
+| double | border-style: double; |
+| groove | border-style: groove; |
+| ridge  | border-style: ridge;  |
+| inset  | border-style: inset;  |
+| outset | border-style: outset; |
+| hidden | border-style: hidden; |

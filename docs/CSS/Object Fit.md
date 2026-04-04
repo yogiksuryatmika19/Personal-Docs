@@ -1,0 +1,7 @@
+| Value      | Example                 |
+| ---------- | ----------------------- |
+| fill       | object-fit: fill;       |
+| contain    | object-fit: contain;    |
+| cover      | object-fit: cover;      |
+| none       | object-fit: none;       |
+| scale-down | object-fit: scale-down; |
