@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Table.md",
+                "file": "HTML/List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Table"
+              "title": "List"
             }
           }
         ],
@@ -223,6 +223,8 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
+    "HTML/Block & Inline.md",
+    "HTML/Table.md",
     "HTML/Page Title.md",
     "HTML/HTML Installation.md",
     "HTML/Favicon.md",
@@ -234,7 +236,6 @@
     "HTML/Paragraph.md",
     "HTML/Comment.md",
     "HTML/Formatting.md",
-    "HTML/Table.md",
     "HTML/Struktur Element.md",
     "HTML/Struktur File HTML.md",
     "HTML/Heading.md",
@@ -250,7 +251,6 @@
     "HTML/Form.md",
     "HTML/SVG.md",
     "HTML/Iframe.md",
-    "HTML/Grouping.md",
     "Images/Pasted image 20260404104316.png",
     "Images/Pasted image 20260404104238.png",
     "Images",
