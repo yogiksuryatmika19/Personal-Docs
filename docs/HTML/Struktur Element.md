@@ -1,3 +1,5 @@
+## Struktur Element
+
 Berikut adalah penyusun dari element HTML
 
 | Struktur Element |
@@ -5,6 +7,8 @@ Berikut adalah penyusun dari element HTML
 | Tag Pembuka      |
 | Content          |
 | Tag Penutup      |
+
+## Example
 
 Misal pada kode HTML berikut ini
 
