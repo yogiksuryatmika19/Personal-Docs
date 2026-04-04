@@ -39,10 +39,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "Images"
+                "path": "CSS"
               },
               "icon": "lucide-file",
-              "title": "Images"
+              "title": "CSS"
             }
           }
         ],
@@ -221,6 +221,12 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
+    "CSS/Pseudo Element.md",
+    "CSS/Pseudo Class.md",
+    "CSS/Comment.md",
+    "CSS/Selector.md",
+    "CSS/Struktur CSS.md",
+    "CSS/CSS Installation.md",
     "CSS/New Text Document.txt",
     "CSS",
     "New folder",
@@ -247,13 +253,8 @@
     "Images/Block & Inline-1.png",
     "HTML/Page Title.md",
     "HTML/HTML Installation.md",
-    "HTML/Image.md",
-    "HTML/Atribut.md",
-    "HTML/Link.md",
     "stylesheets/extra.js",
     "stylesheets/New Text Document.txt",
-    "HTML/Paragraph.md",
-    "HTML/Comment.md",
     "Images/Pasted image 20260404104316.png",
     "Images/Pasted image 20260404104238.png",
     "Images",
