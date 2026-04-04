@@ -26,6 +26,7 @@ theme:
         - navigation.sections
         - toc.follow
         - content.code.copy
+        - navigation.footer
 
 markdown_extensions:
     - pymdownx.highlight:
@@ -44,6 +45,12 @@ plugins:
 
 extra_css:
     - stylesheets/extra.css
-    
+
 extra_javascripts:
     - stylesheets/extra.js
+
+copyright: Copyright &copy; 2026 - Yogi Suryatmika
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/yogiksuryatmika19

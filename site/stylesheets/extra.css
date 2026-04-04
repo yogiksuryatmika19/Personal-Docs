@@ -1,21 +1,6 @@
-/* 1. buka limit utama */
-.md-grid {
-    max-width: 100% !important;
-}
-
-/* 2. hilangkan padding container konten */
-.md-main__inner {
-    margin: 0 !important;
-}
-
 .md-content__inner {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     margin-bottom: 150px;
-}
-
-/* 6. sembunyikan footer */
-.md-footer {
-    display: none;
 }
 
 /* kode inline di tabel tetap cyan */
@@ -84,7 +69,7 @@
     padding: 3px 6px;
     transition: all 0.2s ease;
     font-size: 0.7rem;
-    margin: 5px 0px;
+    margin: 0px 0px;
 }
 
 .md-nav__item--section > .md-nav__link {
@@ -108,7 +93,6 @@
 
 /* ===== NESTED LEVEL ===== */
 .md-nav__list .md-nav__list {
-    margin-left: 8px;
     padding-left: 8px;
 }
 
@@ -169,14 +153,6 @@
 /* border code block */
 .md-typeset pre:not(.highlight) code {
     border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.md-header__inner {
-    background-color: #1e2129;
-}
-
-.md-tabs__list {
-    background-color: #16181e;
 }
 
 .md-tabs__item--active > .md-tabs__link {
