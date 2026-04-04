@@ -4,6 +4,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 
 `id` adalah atribut dari input yang digunakan sebagai penanda unik dari element input. `id` juga biasanya digunakan sebagai acuan dari label untuk memasangkan dirinya dengan input tersebut
 
+> Berikut adalah implementasi atribut `id`
+
 ```html
 <form>  
   <label for="fname">First name:</label><br>  
@@ -16,6 +18,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 ## name
 
 `name` adalah atribut yang digunakan sebagai nama variable ketika input diterima oleh server ketika form disubmit
+
+> Berikut adalah implementasi atribut `name`
 
 ```html
 <form>  
@@ -30,6 +34,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 
 `type` adalah atribut yang digunakan  untuk mendefinisikan jenis input
 
+> Berikut adalah implementasi atribut `type`
+
 ```html
 <form>  
   <label for="fname">First name:</label><br>  
@@ -42,6 +48,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 ## value
 
 `value` adalah atribut yang digunakan untuk mendefinisikan pre-defined value untuk sebuah input
+
+> Berikut adalah implementasi atribut `value`
 
 ```html
 <form>  
@@ -58,6 +66,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 
 `readonly` adalah atribut yang membuat input dapat diklik, tetapi tidak dapat diubah
 
+> Berikut adalah implementasi atribut `readonly`
+
 ```html
 <form>  
   <label for="fname">First name:</label><br>  
@@ -70,6 +80,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 ## disabled
 
 `disabled` adalah atribut yang membuat input tidak dapat diklik dan diubah
+
+> Berikut adalah implementasi atribut `disabled`
 
 ```html
 <form>  
@@ -93,6 +105,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | email                                          |
 | password                                       |
 
+> Berikut adalah implementasi atribut `size`
+
 ```html
 <form>  
   <label for="fname">First name:</label><br>  
@@ -105,6 +119,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 ## maxlength
 
 `maxlength` adalah atribut yang digunakan untuk mendefinisikan panjang maximal dari input (dalam digit karakter)
+
+> Berikut adalah implementasi atribut `maxlength`
 
 ```html
 <form>  
@@ -125,6 +141,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | range                                         |
 | date                                          |
 | datetime-local                                |
+
+> Berikut adalah implementasi atribut `min`
 
 ```html
 <form>  
@@ -150,6 +168,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | date                                          |
 | datetime-local                                |
 
+> Berikut adalah implementasi atribut `max`
+
 ```html
 <form>  
   <label for="datemax">Enter a date before 1980-01-01:</label>  
@@ -172,6 +192,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | email                                              |
 | file                                               |
 
+> Berikut adalah implementasi atribut `multiple`
+
 ```html
 <form>  
   <label for="files">Select files:</label>  
@@ -192,6 +214,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | tel                                               |
 | email                                             |
 | password                                          |
+
+> Berikut adalah implementasi atribut `pattern`
 
 ```html
 <form>  
@@ -214,6 +238,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | tel                                                   |
 | email                                                 |
 | password                                              |
+
+> Berikut adalah implementasi atribut `placeholder`
 
 ```html
 <form>  
@@ -242,6 +268,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | radio                                              |
 | file                                               |
 
+> Berikut adalah implementasi atribut `required`
+
 ```html
 <form>  
   <label for="username">Username:</label>  
@@ -263,6 +291,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | time                                           |
 | week                                           |
 
+> Berikut adalah implementasi atribut `step`
+
 ```html
 <form>  
   <label for="points">Points:</label>  
@@ -273,6 +303,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 ## autofocus
 
 `autofocus` adalah atribut yang digunakan untuk mengatur agar input difokuskan ketika halaman web baru dimuat
+
+> Berikut adalah implementasi atribut `autofocus`
 
 ```html
 <form>  
@@ -298,6 +330,8 @@ Berikut adalah atribut yang terdapat pada element `<input>`
 | date                                                   |
 | range                                                  |
 | color                                                  |
+
+> Berikut adalah implementasi atribut `autocomplete`
 
 ```html
 <form action="/action_page.php" autocomplete="on">  
