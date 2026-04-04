@@ -8,4 +8,4 @@ mkdocs gh-deploy --force
 
 echo.
 echo ====== Proses selesai ======
-pause
+exit
