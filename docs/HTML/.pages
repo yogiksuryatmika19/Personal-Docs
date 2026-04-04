@@ -30,10 +30,11 @@ nav:
 
 - Form Element:
   - Label.md
-  - Input.md
+  - Input:
+    - Input.md
+    - Input Type.md
+    - Input Atribut.md
   - Select.md
   - Textarea.md
   - Button.md
-  
-  
   
