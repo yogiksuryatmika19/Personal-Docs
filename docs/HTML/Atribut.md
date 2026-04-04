@@ -1,3 +1,5 @@
+## Atribut
+
 Berikut adalah atribut yang sering digunakan pada HTML
 
 | Atribut | Keterangan                                                           |
@@ -6,7 +8,7 @@ Berikut adalah atribut yang sering digunakan pada HTML
 | `class` | Mengelompokkan elemen agar bisa diberi gaya atau manipulasi bersama. |
 | `name`  | Memberi nama pada elemen form agar data bisa dikirim ke server.      |
 
-## id
+### id
 
 Berikut adalah contoh penggunaan atribut `id`
 
@@ -14,7 +16,7 @@ Berikut adalah contoh penggunaan atribut `id`
 <p id="paragraf1">Ini paragraf dengan id unik.</p>
 ```
 
-## class
+### class
 
 Berikut adalah contoh penggunaan atribut `class`
 
@@ -23,7 +25,7 @@ Berikut adalah contoh penggunaan atribut `class`
 <p class="highlight">Paragraf kedua</p>
 ```
 
-## name
+### name
 
 Berikut adalah contoh penggunaan atribut `name`
 

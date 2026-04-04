@@ -11,7 +11,8 @@ Berikut adalah element terkait dengan paragraf
 `<p>` adalah tag / element yang digunakan untuk membuat paragraf
 
 ```html
-
+<p>Ini adalah paragraf pertama.</p>
+<p>Ini paragraf kedua.</p>
 ```
 
 ## Baris Baru
@@ -19,7 +20,7 @@ Berikut adalah element terkait dengan paragraf
 `<br/>` adalah tag / element yang digunakan untuk membuat baris baru
 
 ```html
-
+<p>Halo,<br>Selamat datang di website saya.</p>
 ```
 
 ## Garis Horizontal
@@ -27,5 +28,7 @@ Berikut adalah element terkait dengan paragraf
 `<hr/>` adalah tag / element yang digunakan untuk membuat garis horizontal
 
 ```html
-
+<p>Bagian pertama konten.</p>
+<hr>
+<p>Bagian kedua konten.</p>
 ```
