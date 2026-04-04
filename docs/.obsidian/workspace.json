@@ -37,12 +37,14 @@
             "id": "e8d28b437c5c225d",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "HTML"
+                "file": "HTML/HTML Installation.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "HTML Installation"
             }
           }
         ],
@@ -130,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HTML/HTML Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for HTML Installation"
             }
           },
           {
@@ -148,11 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HTML/HTML Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from HTML Installation"
             }
           },
           {
@@ -190,12 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "HTML/HTML Installation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of HTML Installation"
             }
           }
         ]
@@ -218,8 +223,10 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "HTML/Audio.md",
+    "HTML/Struktur File HTML.md",
+    "HTML/HTML Installation.md",
     "HTML/Video.md",
+    "HTML/Audio.md",
     "HTML/Button.md",
     "HTML/Textarea.md",
     "HTML/Select.md",
@@ -229,17 +236,12 @@
     "HTML/SVG.md",
     "HTML/Iframe.md",
     "HTML/Grouping.md",
-    "HTML/Struktur File HTML.md",
-    "HTML/HTML Installation.md",
-    "Images/Pasted image 20260404104316.png",
-    "Images/Pasted image 20260404104238.png",
-    "Images",
     "HTML/Block & Inline.md",
     "HTML/List.md",
     "HTML/Table.md",
-    "HTML/Page Title.md",
     "HTML/Favicon.md",
     "HTML/Image.md",
+    "HTML/Page Title.md",
     "HTML/Link.md",
     "HTML/Comment.md",
     "HTML/Formatting.md",
@@ -247,6 +249,9 @@
     "HTML/Heading.md",
     "HTML/Atribut.md",
     "HTML/Struktur Element.md",
+    "Images/Pasted image 20260404104316.png",
+    "Images/Pasted image 20260404104238.png",
+    "Images",
     "Tags"
   ]
 }

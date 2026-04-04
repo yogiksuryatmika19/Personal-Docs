@@ -39,7 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Tags"
+    "//Tags",
+    "//Images",
+    "//HTML"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
