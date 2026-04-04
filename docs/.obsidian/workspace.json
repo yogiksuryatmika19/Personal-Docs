@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML Installation.md",
+                "file": "HTML/Atribut.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML Installation"
+              "title": "Atribut"
             }
           }
         ],
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/HTML Installation.md",
+                "file": "HTML/Atribut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HTML Installation"
+              "title": "Backlinks for Atribut"
             }
           },
           {
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/HTML Installation.md",
+                "file": "HTML/Atribut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HTML Installation"
+              "title": "Outgoing links from Atribut"
             }
           },
           {
@@ -194,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/HTML Installation.md",
+                "file": "HTML/Atribut.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTML Installation"
+              "title": "Outline of Atribut"
             }
           }
         ]
@@ -223,10 +223,10 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
+    "HTML/HTML Installation.md",
     "HTML/Atribut.md",
     "HTML/Struktur Element.md",
     "HTML/Struktur File HTML.md",
-    "HTML/HTML Installation.md",
     "HTML/HTML.md",
     "Vault.md",
     "HTML/Video.md",

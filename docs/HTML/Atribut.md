@@ -8,10 +8,23 @@ Berikut adalah atribut yang sering digunakan pada HTML
 
 ## id
 
+Berikut adalah contoh penggunaan atribut `id`
+
 ```html
 <p id="paragraf1">Ini paragraf dengan id unik.</p>
 ```
 
 ## class
 
+Berikut adalah contoh penggunaan atribut `class`
+
+```html
+
+```
+
 ## name
+
+Berikut adalah contoh penggunaan atribut `name`
+
+```html
+```
