@@ -36,6 +36,7 @@ Berikut adalah atribut yang terdapat pada `<form>`
 ```
 
 ### target
+
 `target` adalah atribut form yang digunakan untuk 
 
 | Value             | Keterangan             |
@@ -53,14 +54,30 @@ Berikut adalah implementasi dari atribut `target` pada form
 
 ### method
 
-| Value  |
-| ------ |
-| `post` |
-| `get`  |
+`method` adalah atribut form yang digunakan untuk mendefinisikan method pengiriman data yang dilakukan
+
+| Value  | Keterangan                                                                 |
+| ------ | -------------------------------------------------------------------------- |
+| `post` | Method pengiriman data form melalui URL browser (terlihat oleh user)       |
+| `get`  | Method pengiriman data form melalui server side (tidak terlihat oleh user) |
+
+Berikut adalah implementasi dari atribut `method` pada form
+
+```html
+<form action="/action_page.php" method="get">
+```
 
 ### autocomplete
+
+`autocomplete` adalah artibut yang berfungsi menampilkan atau tidaknya history input yang prenah dimasukkan user
 
 | Value |
 | ----- |
 | `on`  |
 | `off` |
+
+Berikut adalah contoh implementasi dari atribut autocomplete pada form
+
+```html
+<form action="/action_page.php" autocomplete="on">
+```
