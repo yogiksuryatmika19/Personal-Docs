@@ -25,11 +25,3 @@
 |-------|----------------------------------------------|
 | url   | list-style-image: url('bullet.png');         |
 | none  | list-style-image: none;                      |
-
-## List Style (Shorthand)
-
-| Value Combination       | Example                                      |
-| ----------------------- | -------------------------------------------- |
-| type                    | list-style: square;                          |
-| type + position         | list-style: square inside;                   |
-| type + position + image | list-style: square inside url('bullet.png'); |
