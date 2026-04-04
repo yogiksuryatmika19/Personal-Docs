@@ -44,3 +44,6 @@ plugins:
 
 extra_css:
     - stylesheets/extra.css
+    
+extra_javascripts:
+    - stylesheets/extra.js

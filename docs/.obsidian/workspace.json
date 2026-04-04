@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Link.md",
+                "file": "HTML/Image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Link"
+              "title": "Image"
             }
           }
         ],
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/Link.md",
+                "file": "HTML/Image.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Link"
+              "title": "Backlinks for Image"
             }
           },
           {
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/Link.md",
+                "file": "HTML/Image.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Link"
+              "title": "Outgoing links from Image"
             }
           },
           {
@@ -194,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Link.md",
+                "file": "HTML/Image.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Link"
+              "title": "Outline of Image"
             }
           }
         ]
@@ -223,10 +223,12 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "HTML/Comment.md",
-    "HTML/Formatting.md",
+    "stylesheets/extra.js",
+    "stylesheets/New Text Document.txt",
     "HTML/Link.md",
     "HTML/Paragraph.md",
+    "HTML/Comment.md",
+    "HTML/Formatting.md",
     "HTML/Table.md",
     "HTML/Image.md",
     "HTML/Atribut.md",
@@ -248,7 +250,6 @@
     "HTML/Iframe.md",
     "HTML/Grouping.md",
     "HTML/Block & Inline.md",
-    "HTML/List.md",
     "Images/Pasted image 20260404104316.png",
     "Images/Pasted image 20260404104238.png",
     "Images",
