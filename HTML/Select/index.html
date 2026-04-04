@@ -1363,6 +1363,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#option-atribut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option Atribut
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1511,6 +1522,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#option-atribut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option Atribut
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1541,9 +1563,76 @@
   <h1>Select</h1>
 
 <h2 id="select">Select<a class="headerlink" href="#select" title="Permanent link">&para;</a></h2>
+<p><code>&lt;select&gt;</code> adalah element yang berfungsi untuk menerima input dropdown dari user</p>
 <h2 id="komponen-select">Komponen Select<a class="headerlink" href="#komponen-select" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah komponen dari element <code>&lt;select&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>Komponen Select</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;select&gt;</code></td>
+<td>Container dari select</td>
+</tr>
+<tr>
+<td><code>&lt;option&gt;</code></td>
+<td>Item pilihan</td>
+</tr>
+</tbody>
+</table>
 <h2 id="select-atribut">Select Atribut<a class="headerlink" href="#select-atribut" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah atribut yang terdapat  padas <code>&lt;select&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>Atribut Select</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>Penanda unik dari select</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>Variable yang akan menyimpan data pilihan user</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-atribut">Option Atribut<a class="headerlink" href="#option-atribut" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah atribut yang terdapat pada <code>&lt;option&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>Atribut Option</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>value</code></td>
+<td>Value untuk setiap pilihan yang ada</td>
+</tr>
+<tr>
+<td><code>selected</code></td>
+<td>Pre-defined option yang akan tampil, sebelum user mulai memilih</td>
+</tr>
+</tbody>
+</table>
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah contoh implementasi element <code>&lt;select&gt;</code></p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">select</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;cars&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;cars&quot;</span><span class="p">&gt;</span>  
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="p">&lt;</span><span class="nt">option</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;volvo&quot;</span> <span class="na">selected</span><span class="p">&gt;</span>Volvo<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>  
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  <span class="p">&lt;</span><span class="nt">option</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;saab&quot;</span><span class="p">&gt;</span>Saab<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>  
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  <span class="p">&lt;</span><span class="nt">option</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;fiat&quot;</span><span class="p">&gt;</span>Fiat<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>  
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  <span class="p">&lt;</span><span class="nt">option</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;audi&quot;</span><span class="p">&gt;</span>Audi<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>  
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
+</span></code></pre></div>
 
 
 

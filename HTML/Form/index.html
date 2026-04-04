@@ -1669,22 +1669,30 @@
 <div class="language-html highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;/action_page.php&quot;</span> <span class="na">target</span><span class="o">=</span><span class="s">&quot;_blank&quot;</span><span class="p">&gt;</span>
 </span></code></pre></div>
 <h3 id="method">method<a class="headerlink" href="#method" title="Permanent link">&para;</a></h3>
+<p><code>method</code> adalah atribut form yang digunakan untuk mendefinisikan method pengiriman data yang dilakukan</p>
 <table>
 <thead>
 <tr>
 <th>Value</th>
+<th>Keterangan</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>post</code></td>
+<td>Method pengiriman data form melalui URL browser (terlihat oleh user)</td>
 </tr>
 <tr>
 <td><code>get</code></td>
+<td>Method pengiriman data form melalui server side (tidak terlihat oleh user)</td>
 </tr>
 </tbody>
 </table>
+<p>Berikut adalah implementasi dari atribut <code>method</code> pada form</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;/action_page.php&quot;</span> <span class="na">method</span><span class="o">=</span><span class="s">&quot;get&quot;</span><span class="p">&gt;</span>
+</span></code></pre></div>
 <h3 id="autocomplete">autocomplete<a class="headerlink" href="#autocomplete" title="Permanent link">&para;</a></h3>
+<p><code>autocomplete</code> adalah artibut yang berfungsi menampilkan atau tidaknya history input yang prenah dimasukkan user</p>
 <table>
 <thead>
 <tr>
@@ -1700,6 +1708,9 @@
 </tr>
 </tbody>
 </table>
+<p>Berikut adalah contoh implementasi dari atribut autocomplete pada form</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;/action_page.php&quot;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&quot;on&quot;</span><span class="p">&gt;</span>
+</span></code></pre></div>
 
 
 
