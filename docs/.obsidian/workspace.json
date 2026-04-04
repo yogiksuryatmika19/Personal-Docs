@@ -218,6 +218,8 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
+    "HTML/Audio.md",
+    "HTML/Video.md",
     "HTML/Button.md",
     "HTML/Textarea.md",
     "HTML/Select.md",
@@ -245,7 +247,6 @@
     "HTML/Heading.md",
     "HTML/Atribut.md",
     "HTML/Struktur Element.md",
-    "HTML/Struktur Element HTML.md",
     "Tags"
   ]
 }

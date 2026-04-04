@@ -13,6 +13,10 @@
          <lastmod>2026-04-04</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/HTML/Button/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/HTML/Comment/</loc>
          <lastmod>2026-04-04</lastmod>
     </url>
@@ -21,7 +25,15 @@
          <lastmod>2026-04-04</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/HTML/Form/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/HTML/Formatting/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/HTML/Grouping/</loc>
          <lastmod>2026-04-04</lastmod>
     </url>
     <url>
@@ -33,7 +45,19 @@
          <lastmod>2026-04-04</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/HTML/Iframe/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/HTML/Image/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/HTML/Input/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/HTML/Label/</loc>
          <lastmod>2026-04-04</lastmod>
     </url>
     <url>
@@ -53,6 +77,14 @@
          <lastmod>2026-04-04</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/HTML/SVG/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/HTML/Select/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/HTML/Struktur%20Element/</loc>
          <lastmod>2026-04-04</lastmod>
     </url>
@@ -62,6 +94,10 @@
     </url>
     <url>
          <loc>https://mydomain.org/mysite/HTML/Table/</loc>
+         <lastmod>2026-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/HTML/Textarea/</loc>
          <lastmod>2026-04-04</lastmod>
     </url>
 </urlset>
