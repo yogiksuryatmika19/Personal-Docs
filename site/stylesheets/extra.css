@@ -31,6 +31,7 @@
 
 .md-typeset table:not([class]) {
     display: table;
+    overflow-x: scroll;
 }
 
 .md-typeset table:not([class]) th {
