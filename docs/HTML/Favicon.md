@@ -12,6 +12,30 @@ Berikut adalah atribut yang ada pada `<link>`
 | `href`  | Menentukan lokasi file favicon.                              |
 | `type`  | Menentukan tipe file (misalnya `image/png`, `image/x-icon`). |
 
+### rel
+
+`rel` adalah atribut yang digunakan untuk menentukan relasi
+
+```html
+rel="icon"
+```
+
+### href
+
+`href` adalah atribut yang digunakan untuk menentukan lokasi dari file favicon
+
+```html
+href="favicon.png"
+```
+
+### type
+
+`type` adalah atribut yang digunakan untuk menentukan tipe file icon
+
+```html
+type="image/png">
+```
+
 ## Example
 
 Berikut adalah contoh penggunaan `<link>` untuk membuat favicon

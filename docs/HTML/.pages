@@ -11,13 +11,15 @@ nav:
   - Formatting.md
   - Comment.md
   - Link.md
-  - Image.md
-  - Favicon.md
-  - Page Title.md
   - Table.md
   - List.md
   - Block & Inline.md
   - Grouping.md
+
+- Media:
+  - Image.md
+  - Favicon.md
+  - Page Title.md
   - Iframe.md
   - SVG.md
   - Video.md

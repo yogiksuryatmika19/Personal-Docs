@@ -2,6 +2,10 @@
 
 `<iframe>` adalah element yang digunakan untuk menampilkan halaman web lain melalui jendela kecil
 
+```html
+<iframe src="demo_iframe.htm" title="Iframe Example"></iframe>
+```
+
 ## Iframe Atribut
 
 Berikut adalah atribut yang ada pada `<iframe>`
