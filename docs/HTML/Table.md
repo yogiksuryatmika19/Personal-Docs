@@ -1,6 +1,10 @@
-## Table Sederhana
+## Table
 
-## Table Kompleks
+## Jenis Table
+
+### Table Sederhana
+
+### Table Complex
 
 ## Atribut Table
 
