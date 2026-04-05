@@ -1,0 +1,33 @@
+nav:
+
+- Python Basic:
+  - Output.md
+  - Comment.md
+  - Variable.md
+  - Data Type.md
+  - String.md
+  - Casting.md
+  - Operator.md
+  - Loop.md
+  - Condition.md
+- Collection: 
+  - List.md
+  - Tuple.md
+  - Set.md
+  - Dictionary.md
+- Function:
+  - Function Declaration.md
+  - Function Invocation.md
+  - Return.md
+  - Parameter.md
+  - Argument.md
+  - Lambda.md
+  - Closure.md
+  - Callback.md
+- Object:
+  - Class.md
+  - Object.md
+  - Class Property.md
+  - Class Method.md
+  - Inheritance.md
+- ...
