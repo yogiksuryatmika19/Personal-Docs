@@ -64,6 +64,15 @@ Berikut adalah cara untuk membuat component class pada TailwindCSS
 	}
 	```
 
+4. Selanjutnya, class `card` dapat digunakan pada element yang ingin distyle dengan komponen tersebut
+
+	```css
+	<!-- Will look like a card, but with square corners -->
+	<div class="card rounded-none">
+	  <!-- ... -->
+	</div>
+	```
+
 ## Sharing Accross Project
 
 Ketika bekerja dengan tim, apabila ingin melakukan collaboration untuk theme tanpa mengganggu theme utama dapat melakukan hal berikut ini

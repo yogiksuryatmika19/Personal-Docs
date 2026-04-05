@@ -4,7 +4,8 @@ nav:
   - TailwindCSS Installation.md
   - Custom Theme.md
   - Selector.md
-  - Pseudo Class & Pseudo Element.md
+  - Pseudo Class.md
+  - Pseudo Element.md
 
 - Typography:
   - font:

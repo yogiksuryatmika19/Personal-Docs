@@ -37,14 +37,12 @@
             "id": "e8d28b437c5c225d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Tailwind CSS/Custom Theme.md",
-                "mode": "source",
-                "source": false
+                "path": "Tailwind CSS"
               },
               "icon": "lucide-file",
-              "title": "Custom Theme"
+              "title": "Tailwind CSS"
             }
           }
         ],
@@ -102,7 +100,7 @@
             }
           },
           {
-            "id": "3e60801ada5a8762",
+            "id": "9e244b26919346cb",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -223,12 +221,11 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "Tailwind CSS/TailwindCSS Installation.md",
-    "Tailwind CSS/Custom Theme.md",
-    "Tailwind CSS/Pseudo Class & Pseudo Element.md",
     "Tailwind CSS/Pseudo Element.md",
     "Tailwind CSS/Pseudo Class.md",
     "Tailwind CSS/Selector.md",
+    "Tailwind CSS/Custom Theme.md",
+    "Tailwind CSS/TailwindCSS Installation.md",
     "Tailwind CSS/Centering Text.md",
     "Tailwind CSS/Centering Div.md",
     "Tailwind CSS/Centering Image.md",
