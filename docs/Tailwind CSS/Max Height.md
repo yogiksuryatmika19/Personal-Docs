@@ -1,0 +1,12 @@
+# max-height
+
+| Class           | Style (CSS)                   |
+| --------------- | ----------------------------- |
+| `max-h-0`       | `max-height: 0rem;`           |
+| `max-h-px`      | `max-height: 1px;`            |
+| `max-h-full`    | `max-height: 100%;`           |
+| `max-h-screen`  | `max-height: 100vh;`          |
+| `max-h-min`     | `max-height: min-content;`    |
+| `max-h-max`     | `max-height: max-content;`    |
+| `max-h-fit`     | `max-height: fit-content;`    |
+| `max-h-[value]` | `max-height: <custom value>;` |

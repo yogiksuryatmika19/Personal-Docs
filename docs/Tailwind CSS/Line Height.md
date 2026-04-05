@@ -1,10 +1,10 @@
 # line-height
 
-| Kelas              | Nilai CSS | Deskripsi        |
-| ------------------ | --------- | ---------------- |
-| `tracking-tighter` | -0.05em   | Sangat rapat     |
-| `tracking-tight`   | -0.025em  | Rapat            |
-| `tracking-normal`  | 0em       | Default          |
-| `tracking-wide`    | 0.025em   | Sedikit renggang |
-| `tracking-wider`   | 0.05em    | Lebih renggang   |
-| `tracking-widest`  | 0.1em     | Sangat renggang  |
+| Class             | Style (CSS)           |
+| ----------------- | --------------------- |
+| `leading-none`    | `line-height: 1;`     |
+| `leading-tight`   | `line-height: 1.25;`  |
+| `leading-snug`    | `line-height: 1.375;` |
+| `leading-normal`  | `line-height: 1.5;`   |
+| `leading-relaxed` | `line-height: 1.625;` |
+| `leading-loose`   | `line-height: 2;`     |

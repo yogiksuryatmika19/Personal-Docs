@@ -1,13 +1,13 @@
 # font-weight
 
-| Kelas             | Nilai CSS | Deskripsi        |
-| ----------------- | --------- | ---------------- |
-| `font-thin`       | 100       | Sangat tipis     |
-| `font-extralight` | 200       | Extra light      |
-| `font-light`      | 300       | Tipis            |
-| `font-normal`     | 400       | Normal (default) |
-| `font-medium`     | 500       | Sedikit tebal    |
-| `font-semibold`   | 600       | Semi bold        |
-| `font-bold`       | 700       | Bold             |
-| `font-extrabold`  | 800       | Extra bold       |
-| `font-black`      | 900       | Sangat tebal     |
+| Class             | Style (CSS)         |
+| ----------------- | ------------------- |
+| `font-thin`       | `font-weight: 100;` |
+| `font-extralight` | `font-weight: 200;` |
+| `font-light`      | `font-weight: 300;` |
+| `font-normal`     | `font-weight: 400;` |
+| `font-medium`     | `font-weight: 500;` |
+| `font-semibold`   | `font-weight: 600;` |
+| `font-bold`       | `font-weight: 700;` |
+| `font-extrabold`  | `font-weight: 800;` |
+| `font-black`      | `font-weight: 900;` |

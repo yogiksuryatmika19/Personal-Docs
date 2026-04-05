@@ -1,12 +1,12 @@
 # text-indent
 
-| Kelas        | Nilai (rem) | Deskripsi    |
-| ------------ | ----------- | ------------ |
-| `indent-0`   | 0rem        | Tanpa indent |
-| `indent-px`  | 1px         | Sangat kecil |
-| `indent-0.5` | 0.125rem    | Sedikit      |
-| `indent-1`   | 0.25rem     | Kecil        |
-| `indent-2`   | 0.5rem      | Sedang       |
-| `indent-4`   | 1rem        | Standar      |
-| `indent-8`   | 2rem        | Besar        |
-| `indent-12`  | 3rem        | Sangat besar |
+| Class            | Style (CSS)                    |
+| ---------------- | ------------------------------ |
+| `indent-0`       | `text-indent: 0px;`            |
+| `indent-px`      | `text-indent: 1px;`            |
+| `indent-0.5`     | `text-indent: 0.125rem;` (2px) |
+| `indent-1`       | `text-indent: 0.25rem;` (4px)  |
+| `indent-2`       | `text-indent: 0.5rem;` (8px)   |
+| `indent-4`       | `text-indent: 1rem;` (16px)    |
+| `indent-8`       | `text-indent: 2rem;` (32px)    |
+| `indent-[value]` | `text-indent: <custom value>;` |

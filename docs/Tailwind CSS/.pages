@@ -5,13 +5,13 @@ nav:
   - Theme Variable.md
 
 - Typography:
-  - Font:
+  - font:
     - Font Color.md
     - Font Family.md
     - Font Size.md
     - Font Style.md
     - Font Weight.md
-  - Text:
+  - text:
     - Text Transform.md
     - Text Shadow.md
     - Text Decoration Line.md
@@ -19,11 +19,11 @@ nav:
     - Text Decoration Style.md
     - Text Decoration Thickness.md
     - Text Underline Offset.md
-  - List:
+  - list:
     - List Style Image.md
     - List Style Position.md
     - List Style Type.md
-  - Spacing:
+  - spacing:
     - Letter Spacing.md
     - Line Height.md
     - Text Align.md
@@ -46,34 +46,40 @@ nav:
   - Background Size.md
 
 - Sizing:
-  - Width:
+  - width:
     - Width.md
     - Min Width.md
     - Max Width.md
-  - Height:
+  - height:
     - Height.md
     - Min Height.md
     - Max Height.md
     
 - Box Model:
-  - Outline:
+  - outline:
     - Outline Width.md
     - Outline Color.md
     - Outline Style.md
     - Outline Offset.md
-  - Border:
-    - Border Radius.md
+  - border:
     - Border Width.md
+    - Border Side Width.md
     - Border Color.md
     - Border Style.md
-  - Margin.md
-  - Padding.md
+    - Border Radius.md
+    - Border Side Radius.md
+  - margin:
+    - Margin.md
+    - Margin Side.md
+  - padding:
+    - Padding.md
+    - Padding Side.md
   - Box Sizing.md
 
 - Layout:
   - Display.md
   - Position.md
-  - Position Offset:
+  - position-offset:
     - Top.md
     - Right.md
     - Bottom.md

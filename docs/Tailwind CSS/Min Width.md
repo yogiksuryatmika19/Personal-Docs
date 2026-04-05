@@ -1,0 +1,11 @@
+# min-width
+
+| Class           | Style (CSS)                  |
+| --------------- | ---------------------------- |
+| `min-w-0`       | `min-width: 0rem;`           |
+| `min-w-px`      | `min-width: 1px;`            |
+| `min-w-full`    | `min-width: 100%;`           |
+| `min-w-min`     | `min-width: min-content;`    |
+| `min-w-max`     | `min-width: max-content;`    |
+| `min-w-fit`     | `min-width: fit-content;`    |
+| `min-w-[value]` | `min-width: <custom value>;` |

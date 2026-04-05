@@ -1,6 +1,6 @@
 # list-style-image
 
-| Kelas                            | Deskripsi                     |
-| -------------------------------- | ----------------------------- |
-| `list-image-[url('/icon.png')]`  | Gunakan gambar sebagai bullet |
-| `list-image-[url('/check.svg')]` | Custom icon list              |
+| Class                | Style (CSS)                     |
+| -------------------- | ------------------------------- |
+| `list-image-none`    | `list-style-image: none;`       |
+| `list-image-[url()]` | `list-style-image: url("...");` |

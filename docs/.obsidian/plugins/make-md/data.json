@@ -40,10 +40,9 @@
   "expandedSpaces": [
     "/",
     "//Tags",
-    "CSS",
-    "Tailwind CSS"
+    "CSS"
   ],
-  "expandFolderOnClick": true,
+  "expandFolderOnClick": false,
   "spacesFolder": "Tags",
   "suppressedWarnings": [],
   "spaceSubFolder": ".space",

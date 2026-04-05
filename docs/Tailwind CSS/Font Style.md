@@ -1,6 +1,6 @@
 # font-style
 
-| Kelas        | Deskripsi            |
-| ------------ | -------------------- |
-| `italic`     | Teks miring (italic) |
-| `not-italic` | Menghilangkan italic |
+| Class        | Style (CSS)           |
+| ------------ | --------------------- |
+| `italic`     | `font-style: italic;` |
+| `not-italic` | `font-style: normal;` |

@@ -1,8 +1,8 @@
 # text-decoration-line
 
-| Kelas          | Deskripsi                    |
-| -------------- | ---------------------------- |
-| `underline`    | Garis bawah teks             |
-| `overline`     | Garis di atas teks           |
-| `line-through` | Coret tengah (strikethrough) |
-| `no-underline` | Underline none               |
+| Class          | Style (CSS)                           |
+| -------------- | ------------------------------------- |
+| `underline`    | `text-decoration-line: underline;`    |
+| `overline`     | `text-decoration-line: overline;`     |
+| `line-through` | `text-decoration-line: line-through;` |
+| `no-underline` | `text-decoration-line: none;`         |

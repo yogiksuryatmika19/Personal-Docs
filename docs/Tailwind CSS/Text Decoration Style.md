@@ -1,9 +1,9 @@
 # text-decoration-style
 
-| Kelas               | Deskripsi             | Visual  |
-| ------------------- | --------------------- | ------- |
-| `decoration-solid`  | Garis solid (default) | ─────   |
-| `decoration-double` | Garis ganda           | ═════   |
-| `decoration-dotted` | Garis titik-titik     | ·····   |
-| `decoration-dashed` | Garis putus-putus     | - - - - |
-| `decoration-wavy`   | Garis bergelombang    | ~~~~~   |
+| Class               | Style (CSS)                      |
+| ------------------- | -------------------------------- |
+| `decoration-solid`  | `text-decoration-style: solid;`  |
+| `decoration-double` | `text-decoration-style: double;` |
+| `decoration-dotted` | `text-decoration-style: dotted;` |
+| `decoration-dashed` | `text-decoration-style: dashed;` |
+| `decoration-wavy`   | `text-decoration-style: wavy;`   |

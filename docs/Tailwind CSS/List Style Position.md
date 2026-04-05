@@ -1,6 +1,6 @@
 # list-style-position
 
-| Kelas          | Deskripsi                              |
-| -------------- | -------------------------------------- |
-| `list-inside`  | Bullet/number masuk ke dalam konten    |
-| `list-outside` | Bullet/number di luar konten (default) |
+| Class          | Style (CSS)                     |
+| -------------- | ------------------------------- |
+| `list-inside`  | `list-style-position: inside;`  |
+| `list-outside` | `list-style-position: outside;` |
