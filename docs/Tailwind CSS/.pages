@@ -2,7 +2,9 @@ nav:
 
 - Core Concept:
   - TailwindCSS Installation.md
-  - Theme Variable.md
+  - Custom Theme.md
+  - Selector.md
+  - Pseudo Class & Pseudo Element.md
 
 - Typography:
   - font:
