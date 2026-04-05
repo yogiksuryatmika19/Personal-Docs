@@ -3,6 +3,10 @@
     margin-bottom: 200px;
 }
 
+.md-content__inner > blockquote {
+    margin-top: 50px;
+}
+
 .md-footer * {
     font-size: 0.7rem;
     position: relative !important;
