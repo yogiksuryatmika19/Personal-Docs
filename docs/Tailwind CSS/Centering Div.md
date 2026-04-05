@@ -1,5 +1,7 @@
 Untuk melakukan centering terhadap `<div>` container atau terluar dapat menggunakan `m-auto`
 
+> Letakkan class berikut pada `<div>` container terluar
+
 | Centering Div Container (Terluar) |
 | --------------------------------- |
 | `m-auto`                          |
