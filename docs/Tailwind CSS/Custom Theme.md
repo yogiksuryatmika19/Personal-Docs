@@ -90,3 +90,5 @@ Ketika bekerja dengan tim, apabila ingin melakukan collaboration untuk theme tan
 	@import "tailwindcss";
 	@import "../brand/theme.css";
 	```
+
+4. Done!
