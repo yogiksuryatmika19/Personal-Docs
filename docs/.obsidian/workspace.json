@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tailwind CSS/Centering Text.md",
+                "file": "Tailwind CSS/TailwindCSS Installation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Centering Text"
+              "title": "TailwindCSS Installation"
             }
           }
         ],
@@ -223,6 +223,8 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
+    "Tailwind CSS/TailwindCSS Installation.md",
+    "Tailwind CSS/Centering Text.md",
     "Tailwind CSS/Centering Div.md",
     "Tailwind CSS/Centering Image.md",
     "Tailwind CSS/Centering Div Item.md",
@@ -247,8 +249,6 @@
     "Tailwind CSS/Border Side Width.md",
     "Tailwind CSS/Scale.md",
     "Tailwind CSS/Rotate.md",
-    "Tailwind CSS/Opacity.md",
-    "Tailwind CSS/Box Shadow.md",
     "Tailwind CSS/New Text Document.txt",
     "CSS",
     "CSS/New Text Document.txt",

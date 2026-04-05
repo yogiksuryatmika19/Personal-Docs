@@ -31,6 +31,16 @@ nav:
     - Text Overflow.md
     - Text Wrap.md
 
+- Sizing:
+  - width:
+    - Width.md
+    - Min Width.md
+    - Max Width.md
+  - height:
+    - Height.md
+    - Min Height.md
+    - Max Height.md
+
 - Image:
   - Object Position.md
   - Object Fit.md
@@ -45,15 +55,7 @@ nav:
   - Background Repeat.md
   - Background Size.md
 
-- Sizing:
-  - width:
-    - Width.md
-    - Min Width.md
-    - Max Width.md
-  - height:
-    - Height.md
-    - Min Height.md
-    - Max Height.md
+
     
 - Box Model:
   - outline:
