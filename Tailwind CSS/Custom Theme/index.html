@@ -6163,9 +6163,57 @@
 <li>
 <p>Selanjutnya, ketika menggunakan breakpoint <code>sm:</code> akan memiliki acuan 30rem untuk viewport size nya (default bawaannya adalah 40rem)</p>
 </li>
+<li>
+<p>Berikut adalah contoh penggunaan dari class <code>sm:</code> yang sudah di-override</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid grid-cols-1 sm:grid-cols-3&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  <span class="cm">&lt;!-- ... --&gt;</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></code></pre></div>
+</li>
 </ol>
 <h2 id="adding-component-class">Adding Component Class<a class="headerlink" href="#adding-component-class" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah cara untuk membuat component class pada TailwindCSS</p>
+<ol>
+<li>Masuk ke file <code>input.css</code></li>
+<li>Gunakan keyword <code>@layer components</code></li>
+<li>
+<p>Tambahkan class baru untuk component yang diperlukan, misal <code>card</code></p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">@</span><span class="k">layer</span><span class="w"> </span><span class="nt">components</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="p">.</span><span class="nc">card</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--color-white</span><span class="p">);</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--radius-lg</span><span class="p">);</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="o">--</span><span class="nf">spacing</span><span class="p">(</span><span class="mi">6</span><span class="p">);</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">    </span><span class="k">box-shadow</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--shadow-xl</span><span class="p">);</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="p">}</span>
+</span></code></pre></div>
+</li>
+</ol>
 <h2 id="sharing-accross-project">Sharing Accross Project<a class="headerlink" href="#sharing-accross-project" title="Permanent link">&para;</a></h2>
+<p>Ketika bekerja dengan tim, apabila ingin melakukan collaboration untuk theme tanpa mengganggu theme utama dapat melakukan hal berikut ini</p>
+<ol>
+<li>Buat file <code>theme.css</code> terpisah dengan <code>input.css</code> utama</li>
+<li>
+<p>Didalam <code>theme.css</code> lakukan penambahan class baru</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">@</span><span class="k">theme</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="nt">--</span><span class="o">*:</span><span class="w"> </span><span class="nt">initial</span><span class="o">;</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">  </span><span class="nt">--spacing</span><span class="o">:</span><span class="w"> </span><span class="nt">4px</span><span class="o">;</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">  </span><span class="nt">--font-body</span><span class="o">:</span><span class="w"> </span><span class="nt">Inter</span><span class="o">,</span><span class="w"> </span><span class="nt">sans-serif</span><span class="o">;</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">  </span><span class="nt">--color-lagoon</span><span class="o">:</span><span class="w"> </span><span class="nt">oklch</span><span class="o">(</span><span class="nt">0</span><span class="p">.</span><span class="nc">72</span><span class="w"> </span><span class="nt">0</span><span class="p">.</span><span class="nc">11</span><span class="w"> </span><span class="nt">221</span><span class="p">.</span><span class="nc">19</span><span class="o">);</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">  </span><span class="nt">--color-coral</span><span class="o">:</span><span class="w"> </span><span class="nt">oklch</span><span class="o">(</span><span class="nt">0</span><span class="p">.</span><span class="nc">74</span><span class="w"> </span><span class="nt">0</span><span class="p">.</span><span class="nc">17</span><span class="w"> </span><span class="nt">40</span><span class="p">.</span><span class="nc">24</span><span class="o">);</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">  </span><span class="nt">--color-driftwood</span><span class="o">:</span><span class="w"> </span><span class="nt">oklch</span><span class="o">(</span><span class="nt">0</span><span class="p">.</span><span class="nc">79</span><span class="w"> </span><span class="nt">0</span><span class="p">.</span><span class="nc">06</span><span class="w"> </span><span class="nt">74</span><span class="p">.</span><span class="nc">59</span><span class="o">);</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">  </span><span class="nt">--color-tide</span><span class="o">:</span><span class="w"> </span><span class="nt">oklch</span><span class="o">(</span><span class="nt">0</span><span class="p">.</span><span class="nc">49</span><span class="w"> </span><span class="nt">0</span><span class="p">.</span><span class="nc">08</span><span class="w"> </span><span class="nt">205</span><span class="p">.</span><span class="nc">88</span><span class="o">);</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">  </span><span class="nt">--color-dusk</span><span class="o">:</span><span class="w"> </span><span class="nt">oklch</span><span class="o">(</span><span class="nt">0</span><span class="p">.</span><span class="nc">82</span><span class="w"> </span><span class="nt">0</span><span class="p">.</span><span class="nc">15</span><span class="w"> </span><span class="nt">72</span><span class="p">.</span><span class="nc">09</span><span class="o">);</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="p">}</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Didalam file <code>input.css</code>, hanya perlu melakukan import dari file <code>theme.css</code> tadi</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">@</span><span class="k">import</span><span class="w"> </span><span class="s2">&quot;tailwindcss&quot;</span><span class="p">;</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="p">@</span><span class="k">import</span><span class="w"> </span><span class="s2">&quot;../brand/theme.css&quot;</span><span class="p">;</span>
+</span></code></pre></div>
+</li>
+</ol>
 
 
 
