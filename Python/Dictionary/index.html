@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#dictionary-length" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -6528,6 +6533,24 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dictionary
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -6544,6 +6567,111 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dictionary-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dictionary Length
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dictionary-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dictionary Type
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-dictionary-by-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Dictionary by Key
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Keys
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Item
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-if-key-exist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check If Key Exist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#change-dictionary-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Change Dictionary Item
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -7073,6 +7201,102 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dictionary-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dictionary Length
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dictionary-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dictionary Type
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-dictionary-by-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Dictionary by Key
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Keys
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Item
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-if-key-exist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check If Key Exist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#change-dictionary-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Change Dictionary Item
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -7090,7 +7314,53 @@
 
   <h1>Dictionary</h1>
 
-
+<ul>
+<li>dictionary adalah collection yang terurut</li>
+<li>dictionary dapat diubah</li>
+<li>dictionary tidak memperbolehkan duplikat</li>
+<li>dictionary terdiri dari pasangan key dan value</li>
+</ul>
+<h2 id="dictionary-length">Dictionary Length<a class="headerlink" href="#dictionary-length" title="Permanent link">&para;</a></h2>
+<p><code>len()</code> dapat digunakan untuk mencari panjang dari dictionary</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">thisdict</span><span class="p">))</span>
+</span></code></pre></div>
+<h2 id="dictionary-type">Dictionary Type<a class="headerlink" href="#dictionary-type" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah output ketika sebuah variable dan value memiliki tipe data dictionary</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>&lt;class &#39;dict&#39;&gt;
+</span></code></pre></div>
+<h2 id="access-dictionary-by-key">Access Dictionary by Key<a class="headerlink" href="#access-dictionary-by-key" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah cara mengakses dicionary menggunakan key</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">thisdict</span> <span class="o">=</span> <span class="p">{</span>  
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  <span class="s2">&quot;brand&quot;</span><span class="p">:</span> <span class="s2">&quot;Ford&quot;</span><span class="p">,</span>  
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  <span class="s2">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;Mustang&quot;</span><span class="p">,</span>  
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  <span class="s2">&quot;year&quot;</span><span class="p">:</span> <span class="mi">1964</span>  
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">}</span>  
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">x</span> <span class="o">=</span> <span class="n">thisdict</span><span class="p">[</span><span class="s2">&quot;model&quot;</span><span class="p">]</span>
+</span></code></pre></div>
+<h2 id="get-keys">Get Keys<a class="headerlink" href="#get-keys" title="Permanent link">&para;</a></h2>
+<p><code>keys()</code> digunakan untuk memperoleh seluruh key dari dictionary</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">x</span> <span class="o">=</span> <span class="n">thisdict</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="get-value">Get Value<a class="headerlink" href="#get-value" title="Permanent link">&para;</a></h2>
+<p><code>values()</code> digunakan untuk memperoleh seluruh value dari dictionary</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">x</span> <span class="o">=</span> <span class="n">thisdict</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="get-item">Get Item<a class="headerlink" href="#get-item" title="Permanent link">&para;</a></h2>
+<p><code>items()</code> digunakan untuk memperoleh key dan value</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">x</span> <span class="o">=</span> <span class="n">thisdict</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="check-if-key-exist">Check If Key Exist<a class="headerlink" href="#check-if-key-exist" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah cara mengecek apakah sebuah key memang terdapat  atau tidak didalam dictionary</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">thisdict</span> <span class="o">=</span> <span class="p">{</span>  
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>  <span class="s2">&quot;brand&quot;</span><span class="p">:</span> <span class="s2">&quot;Ford&quot;</span><span class="p">,</span>  
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>  <span class="s2">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;Mustang&quot;</span><span class="p">,</span>  
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>  <span class="s2">&quot;year&quot;</span><span class="p">:</span> <span class="mi">1964</span>  
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="p">}</span>  
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="k">if</span> <span class="s2">&quot;model&quot;</span> <span class="ow">in</span> <span class="n">thisdict</span><span class="p">:</span>  
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Yes, &#39;model&#39; is one of the keys in the thisdict dictionary&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<h2 id="change-dictionary-item">Change Dictionary Item<a class="headerlink" href="#change-dictionary-item" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah cara mengubah item dictionary </p>
 
 
 
