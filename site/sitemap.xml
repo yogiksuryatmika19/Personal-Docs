@@ -241,6 +241,10 @@
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/Tailwind%20CSS/Custom%20Theme/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/Tailwind%20CSS/Display/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
@@ -397,6 +401,10 @@
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/Tailwind%20CSS/Pseudo%20Class%20%26%20Pseudo%20Element/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/Tailwind%20CSS/Resize/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
@@ -410,6 +418,10 @@
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Tailwind%20CSS/Scale/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Tailwind%20CSS/Selector/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
@@ -470,10 +482,6 @@
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Tailwind%20CSS/Text%20Wrap/</loc>
-         <lastmod>2026-04-05</lastmod>
-    </url>
-    <url>
-         <loc>https://mydomain.org/mysite/Tailwind%20CSS/Theme%20Variable/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>

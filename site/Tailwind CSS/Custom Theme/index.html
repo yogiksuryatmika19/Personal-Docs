@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/Tailwind%20CSS/Font%20Weight/">
+        <link rel="canonical" href="https://mydomain.org/mysite/Tailwind%20CSS/Custom%20Theme/">
       
       
-        <link rel="prev" href="../Font%20Style/">
+        <link rel="prev" href="../TailwindCSS%20Installation/">
       
       
-        <link rel="next" href="../Text%20Transform/">
+        <link rel="next" href="../Selector/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>font-weight - Yogi Suryatmika</title>
+        <title>Custom Theme - Yogi Suryatmika</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#font-weight" class="md-skip">
+        <a href="#extending-the-default-theme" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              font-weight
+              Custom Theme
             
           </span>
         </div>
@@ -1554,6 +1554,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1569,11 +1571,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
         
           
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="">
@@ -1594,7 +1596,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1637,10 +1639,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Custom%20Theme/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Custom Theme
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1656,6 +1683,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#extending-the-default-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extending The Default Theme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overriding-the-default-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overriding The Default Theme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-component-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Component Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-accross-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sharing Accross Project
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1729,8 +1818,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1746,11 +1833,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
@@ -1771,7 +1858,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1786,8 +1873,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1800,11 +1885,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
         
           
           <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
@@ -1825,7 +1910,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1952,19 +2037,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Font%20Weight/" class="md-nav__link">
         
   
   
@@ -1980,7 +2056,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -5979,8 +6054,58 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#extending-the-default-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extending The Default Theme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overriding-the-default-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overriding The Default Theme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-component-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Component Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-accross-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sharing Accross Project
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -5997,53 +6122,50 @@
 
 
 
-<h1 id="font-weight">font-weight<a class="headerlink" href="#font-weight" title="Permanent link">&para;</a></h1>
-<table>
-<thead>
-<tr>
-<th>Class</th>
-<th>Style (CSS)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>font-thin</code></td>
-<td><code>font-weight: 100;</code></td>
-</tr>
-<tr>
-<td><code>font-extralight</code></td>
-<td><code>font-weight: 200;</code></td>
-</tr>
-<tr>
-<td><code>font-light</code></td>
-<td><code>font-weight: 300;</code></td>
-</tr>
-<tr>
-<td><code>font-normal</code></td>
-<td><code>font-weight: 400;</code></td>
-</tr>
-<tr>
-<td><code>font-medium</code></td>
-<td><code>font-weight: 500;</code></td>
-</tr>
-<tr>
-<td><code>font-semibold</code></td>
-<td><code>font-weight: 600;</code></td>
-</tr>
-<tr>
-<td><code>font-bold</code></td>
-<td><code>font-weight: 700;</code></td>
-</tr>
-<tr>
-<td><code>font-extrabold</code></td>
-<td><code>font-weight: 800;</code></td>
-</tr>
-<tr>
-<td><code>font-black</code></td>
-<td><code>font-weight: 900;</code></td>
-</tr>
-</tbody>
-</table>
+  <h1>Custom Theme</h1>
+
+<h2 id="extending-the-default-theme">Extending The Default Theme<a class="headerlink" href="#extending-the-default-theme" title="Permanent link">&para;</a></h2>
+<p>Untuk menambahkan class baru pada TailwindCSS dapat dilakukan dengan cara berikut ini</p>
+<ol>
+<li>Masuk kedalam <code>input.css</code></li>
+<li>
+<p>Buat variable <code>@theme</code> didalamnya yang isinya adalah class baru untuk property beserta value nya. Misalnya user ingin membuat class baru untuk styling font berupa class <code>font-script</code></p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">@</span><span class="k">import</span><span class="w"> </span><span class="s2">&quot;tailwindcss&quot;</span><span class="p">;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">@</span><span class="k">theme</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nt">--font-script</span><span class="o">:</span><span class="w"> </span><span class="nt">Great</span><span class="w"> </span><span class="nt">Vibes</span><span class="o">,</span><span class="w"> </span><span class="nt">cursive</span><span class="o">;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Selanjutnya, otomatis  akan ada class bernama <code>font-script</code> ketika sedang melakukan styling. </p>
+</li>
+<li>
+<p>Berikut adalah contoh penggunan dari class baru yang sudah ditambahkan</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">&lt;</span><span class="nt">p</span><span class="w"> </span><span class="nt">class</span><span class="o">=</span><span class="s2">&quot;font-script&quot;</span><span class="o">&gt;</span><span class="nt">This</span><span class="w"> </span><span class="nt">will</span><span class="w"> </span><span class="nt">use</span><span class="w"> </span><span class="nt">the</span><span class="w"> </span><span class="nt">Great</span><span class="w"> </span><span class="nt">Vibes</span><span class="w"> </span><span class="nt">font</span><span class="w"> </span><span class="nt">family</span><span class="o">.&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span></code></pre></div>
+</li>
+</ol>
+<h2 id="overriding-the-default-theme">Overriding The Default Theme<a class="headerlink" href="#overriding-the-default-theme" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah langkah-langkah untuk menumpuk / mengubah styling dari class bawaan pada TailwindCSS</p>
+<ol>
+<li>Masuk ke <code>input.css</code></li>
+<li>Buat variable <code>@theme</code> yang didalamnya adalah class bawaan dari TailwindCSS misalnya <code>breakpoint-sm</code></li>
+<li>
+<p>Ubah value dari class bawaan tersebut sesuai kebutuhan</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">@</span><span class="k">import</span><span class="w"> </span><span class="s2">&quot;tailwindcss&quot;</span><span class="p">;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">@</span><span class="k">theme</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="nt">--breakpoint-sm</span><span class="o">:</span><span class="w"> </span><span class="nt">30rem</span><span class="o">;</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">}</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Selanjutnya, ketika menggunakan breakpoint <code>sm:</code> akan memiliki acuan 30rem untuk viewport size nya (default bawaannya adalah 40rem)</p>
+</li>
+</ol>
+<h2 id="adding-component-class">Adding Component Class<a class="headerlink" href="#adding-component-class" title="Permanent link">&para;</a></h2>
+<h2 id="sharing-accross-project">Sharing Accross Project<a class="headerlink" href="#sharing-accross-project" title="Permanent link">&para;</a></h2>
 
 
 
@@ -6073,7 +6195,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Font%20Style/" class="md-footer__link md-footer__link--prev" aria-label="Previous: font-style">
+          <a href="../TailwindCSS%20Installation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: TailwindCSS Installation">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -6083,20 +6205,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                font-style
+                TailwindCSS Installation
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Text%20Transform/" class="md-footer__link md-footer__link--next" aria-label="Next: text-transform">
+          <a href="../Selector/" class="md-footer__link md-footer__link--next" aria-label="Next: Selector">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                text-transform
+                Selector
               </div>
             </div>
             <div class="md-footer__button md-icon">

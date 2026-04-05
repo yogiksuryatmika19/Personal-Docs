@@ -14,7 +14,7 @@
         <link rel="prev" href="../../HTML/Button/">
       
       
-        <link rel="next" href="../Theme%20Variable/">
+        <link rel="next" href="../Custom%20Theme/">
       
       
         
@@ -1715,10 +1715,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#start-using-tailwind-in-your-html" class="md-nav__link">
+  <a href="#start-using-tailwind-in-html-file" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Start using Tailwind in your HTML
+        Start using Tailwind in HTML File
       
     </span>
   </a>
@@ -1727,6 +1727,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktur-direktori" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struktur Direktori
+      
+    </span>
+  </a>
   
 </li>
       
@@ -1746,14 +1757,70 @@
   
   
     <li class="md-nav__item">
-      <a href="../Theme%20Variable/" class="md-nav__link">
+      <a href="../Custom%20Theme/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Theme Variable
+    Custom Theme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Selector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selector
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pseudo%20Class%20%26%20Pseudo%20Element/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pseudo Class & Pseudo Element
   
 
     
@@ -6068,10 +6135,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#start-using-tailwind-in-your-html" class="md-nav__link">
+  <a href="#start-using-tailwind-in-html-file" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Start using Tailwind in your HTML
+        Start using Tailwind in HTML File
       
     </span>
   </a>
@@ -6080,6 +6147,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktur-direktori" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struktur Direktori
+      
+    </span>
+  </a>
   
 </li>
       
@@ -6105,6 +6183,7 @@
 <h2 id="tailwind-cli">Tailwind CLI<a class="headerlink" href="#tailwind-cli" title="Permanent link">&para;</a></h2>
 <p>Berikut adalah langkah-langkah installation untuk TailwindCSS</p>
 <h3 id="install-tailwind-css">Install Tailwind CSS<a class="headerlink" href="#install-tailwind-css" title="Permanent link">&para;</a></h3>
+<p>Jalankan pada terminal</p>
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>npm<span class="w"> </span>install<span class="w"> </span>tailwindcss<span class="w"> </span>@tailwindcss/cli
 </span></code></pre></div>
 <h3 id="import-tailwind-css">Import Tailwind CSS<a class="headerlink" href="#import-tailwind-css" title="Permanent link">&para;</a></h3>
@@ -6112,22 +6191,29 @@
 <div class="language-css highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">@</span><span class="k">import</span><span class="w"> </span><span class="s2">&quot;tailwindcss&quot;</span><span class="p">;</span>
 </span></code></pre></div>
 <h3 id="start-the-tailwind-cli-build-process">Start the Tailwind CLI build process<a class="headerlink" href="#start-the-tailwind-cli-build-process" title="Permanent link">&para;</a></h3>
+<p>Jalankan pada terminal</p>
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>npx<span class="w"> </span>@tailwindcss/cli<span class="w"> </span>-i<span class="w"> </span>./src/input.css<span class="w"> </span>-o<span class="w"> </span>./src/output.css<span class="w"> </span>--watch
 </span></code></pre></div>
-<h3 id="start-using-tailwind-in-your-html">Start using Tailwind in your HTML<a class="headerlink" href="#start-using-tailwind-in-your-html" title="Permanent link">&para;</a></h3>
+<h3 id="start-using-tailwind-in-html-file">Start using Tailwind in HTML File<a class="headerlink" href="#start-using-tailwind-in-html-file" title="Permanent link">&para;</a></h3>
+<p>Buat file pada direktori <code>src/index.html</code></p>
 <div class="language-html highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="cp">&lt;!doctype html&gt;</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="p">&gt;</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="hll">  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;./output.css&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span><span class="p">&gt;</span>
-</span></span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>  <span class="p">&lt;</span><span class="nt">h1</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;text-3xl font-bold underline&quot;</span><span class="p">&gt;</span>
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    Hello world!
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>  <span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span> <span class="p">/&gt;</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span> <span class="p">/&gt;</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="hll">        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;./output.css&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="p">/&gt;</span>
+</span></span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>        <span class="p">&lt;</span><span class="nt">h1</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;text-3xl font-bold underline&quot;</span><span class="p">&gt;</span>Hello world!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<h2 id="struktur-direktori">Struktur Direktori<a class="headerlink" href="#struktur-direktori" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>new-project
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    /src
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>        input.css
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>        output.css
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>        index.html 
 </span></code></pre></div>
 
 
@@ -6175,13 +6261,13 @@
         
         
           
-          <a href="../Theme%20Variable/" class="md-footer__link md-footer__link--next" aria-label="Next: Theme Variable">
+          <a href="../Custom%20Theme/" class="md-footer__link md-footer__link--next" aria-label="Next: Custom Theme">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Theme Variable
+                Custom Theme
               </div>
             </div>
             <div class="md-footer__button md-icon">
