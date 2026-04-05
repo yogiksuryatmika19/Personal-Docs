@@ -138,3 +138,59 @@ thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):  
   print(thislist[i])
 ```
+
+## Sorting List Ascending
+
+`sort()` adalah method yang digunakan untuk melakukan sorting pada list
+
+```py
+thislist = [100, 50, 65, 82, 23]  
+thislist.sort()  
+print(thislist)
+```
+
+## Sorting List Descending
+
+Untuk melakukan sorting secara descending dapat menggunakan method `sort()` yang berisi parameter `reverse=True`
+
+```py
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]  
+thislist.sort(reverse = True)  
+print(thislist)
+```
+
+## Copy List with copy()
+
+`copy()` adalah method yang digunakan untuk melakukan copy list satu kedalam list lain
+
+```py
+thislist = ["apple", "banana", "cherry"]  
+mylist = thislist.copy()  
+print(mylist)
+```
+
+## Join List with append()
+
+Berikut adalah contoh implementasi join list menggunakan `append()`
+
+```py
+list1 = ["a", "b" , "c"]  
+list2 = [1, 2, 3]  
+  
+for x in list2:  
+  list1.append(x)  
+  
+print(list1)
+```
+
+## Join List with extend()
+
+Berikut adalah contoh implementasi join list menggunkan `extend()`
+
+```py
+list1 = ["a", "b" , "c"]  
+list2 = [1, 2, 3]  
+  
+list1.extend(list2)  
+print(list1)
+```
