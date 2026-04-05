@@ -1,0 +1,8 @@
+# stroke-width
+
+| Class            | Style (CSS)               |
+| ---------------- | ------------------------- |
+| `stroke-0`       | `stroke-width: 0;`        |
+| `stroke-1`       | `stroke-width: 1;`        |
+| `stroke-2`       | `stroke-width: 2;`        |
+| `stroke-[value]` | `stroke-width: <custom>;` |
