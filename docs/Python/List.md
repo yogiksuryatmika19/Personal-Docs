@@ -108,3 +108,33 @@ thislist = ["apple", "banana", "cherry"]
 thislist.pop()  
 print(thislist)
 ```
+
+## Remove Item With clear()
+
+`clear()` adalah method yang digunakan untuk mengosongkan list item tanpa menghapus wadah dari list tersebut
+
+```py
+thislist = ["apple", "banana", "cherry"]  
+thislist.clear()  
+print(thislist)
+```
+
+## Loop List by Value
+
+Berikut adalah cara untuk melakukan looping pada list dengan mengakses value nya langsung
+
+```py
+thislist = ["apple", "banana", "cherry"]  
+for x in thislist:  
+  print(x)
+```
+
+## Loop  List by Index & Value
+
+Berikut adalah cara untuk melakukan looping pada list dengan index beserta valuenya
+
+```py
+thislist = ["apple", "banana", "cherry"]  
+for i in range(len(thislist)):  
+  print(thislist[i])
+```
