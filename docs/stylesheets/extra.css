@@ -1,3 +1,7 @@
+ul .md-tabs__list {
+    overflow: scroll;
+}
+
 .md-content__inner {
     font-size: 0.8rem;
     margin-bottom: 200px;

@@ -6651,6 +6651,61 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#sorting-list-ascending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sorting List Ascending
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sorting-list-descending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sorting List Descending
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copy-list-with-copy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy List with copy()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-list-with-append" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join List with append()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-list-with-extend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join List with extend()
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7427,6 +7482,61 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#sorting-list-ascending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sorting List Ascending
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sorting-list-descending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sorting List Descending
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copy-list-with-copy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy List with copy()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-list-with-append" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join List with append()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-list-with-extend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join List with extend()
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7530,6 +7640,42 @@
 <div class="language-py highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">thislist</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">]</span>  
 </span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">thislist</span><span class="p">)):</span>  
 </span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">thislist</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span></code></pre></div>
+<h2 id="sorting-list-ascending">Sorting List Ascending<a class="headerlink" href="#sorting-list-ascending" title="Permanent link">&para;</a></h2>
+<p><code>sort()</code> adalah method yang digunakan untuk melakukan sorting pada list</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="n">thislist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">82</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>  
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="n">thislist</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>  
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">thislist</span><span class="p">)</span>
+</span></code></pre></div>
+<h2 id="sorting-list-descending">Sorting List Descending<a class="headerlink" href="#sorting-list-descending" title="Permanent link">&para;</a></h2>
+<p>Untuk melakukan sorting secara descending dapat menggunakan method <code>sort()</code> yang berisi parameter <code>reverse=True</code></p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">thislist</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;orange&quot;</span><span class="p">,</span> <span class="s2">&quot;mango&quot;</span><span class="p">,</span> <span class="s2">&quot;kiwi&quot;</span><span class="p">,</span> <span class="s2">&quot;pineapple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">]</span>  
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="n">thislist</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>  
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">thislist</span><span class="p">)</span>
+</span></code></pre></div>
+<h2 id="copy-list-with-copy">Copy List with copy()<a class="headerlink" href="#copy-list-with-copy" title="Permanent link">&para;</a></h2>
+<p><code>copy()</code> adalah method yang digunakan untuk melakukan copy list satu kedalam list lain</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="n">thislist</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">]</span>  
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="n">mylist</span> <span class="o">=</span> <span class="n">thislist</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>  
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+</span></code></pre></div>
+<h2 id="join-list-with-append">Join List with append()<a class="headerlink" href="#join-list-with-append" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah contoh implementasi join list menggunakan <code>append()</code></p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">list1</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span> <span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">]</span>  
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="n">list2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>  
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">list2</span><span class="p">:</span>  
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>  <span class="n">list1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>  
+</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>
+</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">list1</span><span class="p">)</span>
+</span></code></pre></div>
+<h2 id="join-list-with-extend">Join List with extend()<a class="headerlink" href="#join-list-with-extend" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah contoh implementasi join list menggunkan <code>extend()</code></p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="n">list1</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span> <span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">]</span>  
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="n">list2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>  
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="n">list1</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">list2</span><span class="p">)</span>  
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">list1</span><span class="p">)</span>
 </span></code></pre></div>
 
 

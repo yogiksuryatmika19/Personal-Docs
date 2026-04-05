@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Dictionary.md",
+                "file": "Tailwind CSS/Google Fonts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dictionary"
+              "title": "Google Fonts"
             }
           }
         ],
@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "c5699dd11292d02b",
+            "id": "dd9454f583fc9224",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -223,6 +223,12 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
+    "Python/Parameter.md",
+    "Python/Return.md",
+    "Python/Function Invocation.md",
+    "Tailwind CSS/Text Shadow.md",
+    "Python/Function Declaration.md",
+    "Python/Dictionary.md",
     "Python/Set.md",
     "Python/Tuple.md",
     "Python/List.md",
@@ -240,15 +246,9 @@
     "Python/Class Property.md",
     "Python/Object.md",
     "Python/Class.md",
-    "Python/Function Invocation.md",
     "Python/Callback.md",
     "Python/Closure.md",
     "Python/Lambda.md",
-    "Python/Argument.md",
-    "Python/Parameter.md",
-    "Python/Return.md",
-    "Python/Function Declaration.md",
-    "Python/Function.md",
     "Python",
     "Tailwind CSS/New Text Document.txt",
     "CSS",

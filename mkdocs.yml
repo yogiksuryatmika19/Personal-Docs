@@ -4,20 +4,9 @@ site_url: https://mydomain.org/mysite
 theme:
     name: material
     palette:
-        # Light mode
-        - scheme: default
-          primary: black
-          accent: black
-          toggle:
-              icon: material/weather-night
-              name: Switch to dark mode
-        # Dark mode
-        - scheme: slate
-          primary: black
-          accent: black
-          toggle:
-              icon: material/weather-sunny
-              name: Switch to light mode
+        scheme: slate
+        primary: black
+        accent: black
 
     features:
         - navigation.tabs
