@@ -125,7 +125,31 @@
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/Python/Argument/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Callback/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/Python/Casting/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Class%20Method/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Class%20Property/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Class/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Closure/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
@@ -141,7 +165,35 @@
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/Python/Dictionary/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Function%20Declaration/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Function%20Invocation/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Inheritance/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Lambda/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/List/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/Python/Loop/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Object/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
@@ -153,7 +205,23 @@
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/Python/Parameter/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Return/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Set/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/Python/String/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Python/Tuple/</loc>
          <lastmod>2026-04-05</lastmod>
     </url>
     <url>
