@@ -37,12 +37,14 @@
             "id": "e8d28b437c5c225d",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Tailwind CSS"
+                "file": "Tailwind CSS/Google Fonts.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Tailwind CSS"
+              "title": "Google Fonts"
             }
           }
         ],
@@ -221,8 +223,10 @@
   },
   "active": "e8d28b437c5c225d",
   "lastOpenFiles": [
-    "Tailwind CSS/Pseudo Element.md",
+    "Tailwind CSS/Font Face.md",
+    "Tailwind CSS/Google Fonts.md",
     "Tailwind CSS/Pseudo Class.md",
+    "Tailwind CSS/Pseudo Element.md",
     "Tailwind CSS/Selector.md",
     "Tailwind CSS/Custom Theme.md",
     "Tailwind CSS/TailwindCSS Installation.md",
@@ -245,7 +249,6 @@
     "Tailwind CSS/Color Scheme.md",
     "Tailwind CSS/Caret Color.md",
     "Tailwind CSS/Accent Color.md",
-    "Tailwind CSS/Animation.md",
     "Tailwind CSS/New Text Document.txt",
     "CSS",
     "CSS/New Text Document.txt",
