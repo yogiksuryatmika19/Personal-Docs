@@ -1,0 +1,5 @@
+## Mean
+
+## Median
+
+## Mode

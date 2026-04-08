@@ -16,6 +16,7 @@ theme:
         - toc.follow
         - content.code.copy
         - navigation.footer
+        - navigation.path
 
 markdown_extensions:
     - pymdownx.highlight:

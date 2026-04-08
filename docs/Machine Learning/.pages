@@ -1,0 +1,16 @@
+nav:
+
+- Getting Started:
+  - Load File.md
+  - Data Info.md
+
+- Data Cleaning:
+  - Data Cleaning.md
+  - Rename Column.md
+
+- Analisis Univariat:
+  - Sorting Data.md
+  - Data Distribution.md
+  - Mean, Median & Mode.md
+
+- ...

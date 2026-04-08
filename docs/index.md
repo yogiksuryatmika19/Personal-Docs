@@ -1,6 +1,3 @@
 # Home
 
 ## Welcome to My Personal Docs
-
->  Slow Doesn't Mean You Lose...
->  Greatness Can't Found In The Short & Easy Way...
