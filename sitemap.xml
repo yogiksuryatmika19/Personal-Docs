@@ -2,50 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Computer%20Vision/Color/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Computer%20Vision/Images/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Data%20Cleaning/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Data%20Distribution/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Data%20Info/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Load%20File/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Mean%2C%20Median%20%26%20Mode/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Rename%20Column/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Machine%20Learning/Sorting%20Data/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Pandas/Read%20File/</loc>
+         <lastmod>2026-05-06</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Pandas/Viewing%20Data/</loc>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Python/Library%20Setup/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/Python/Virtual%20Env/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-05-06</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Selenium/New%20Project/</loc>
+         <lastmod>2026-05-06</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Selenium/Selenium%20Installation/</loc>
+         <lastmod>2026-05-06</lastmod>
     </url>
 </urlset>

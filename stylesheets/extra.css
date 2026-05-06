@@ -9,6 +9,7 @@ ul .md-tabs__list {
 .md-content__inner {
     font-size: 0.8rem;
     margin-bottom: 200px;
+    min-height: 100vh;
 }
 
 .md-content__inner > blockquote {
@@ -18,6 +19,13 @@ ul .md-tabs__list {
 .md-footer * {
     font-size: 0.7rem;
     position: relative !important;
+}
+
+.md-footer-meta__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* kode inline di tabel tetap cyan */
@@ -49,8 +57,14 @@ ul .md-tabs__list {
     padding: 5px 10px;
 }
 
-.md-typeset table:not([class]) td:hover {
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) tr:hover {
     background-color: transparent !important;
+}
+
+.md-typeset__table > button {
+    display: none;
+    visibility: hidden;
 }
 
 .md-typeset ul,
@@ -65,7 +79,7 @@ ul .md-tabs__list {
 }
 
 .toc-highlight {
-    animation: fadeHighlight 1s ease-out;
+    animation: fadeHighlight 3s ease-out;
 }
 
 @keyframes fadeHighlight {
@@ -92,15 +106,24 @@ ul .md-tabs__list {
 }
 
 .md-nav__item--section > .md-nav__link {
-    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-color: transparent !important;
+    box-shadow: none !important;
     letter-spacing: 0.05em;
-    margin-bottom: 15px;
-    height: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    margin-left: -10px;
+    color: white !important;
+    text-transform: uppercase !important;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 nav.md-nav--secondary:nth-child(1) > label:nth-child(1) {
     height: 20px;
     margin-bottom: 15px;
+    color: white;
 }
 
 /* hover */
@@ -121,11 +144,16 @@ nav.md-nav--secondary:nth-child(1) > label:nth-child(1) {
 }
 
 /* section title */
-.md-nav__title {
-    font-size: 0.75rem;
-    text-transform: uppercase;
+.md-nav--secondary .md-nav__title {
+    font-size: 0.8rem;
+    text-transform: uppercase !important;
     letter-spacing: 0.05em;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    padding-bottom: 25px !important;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
 
 .md-nav__link--active {
@@ -153,20 +181,66 @@ nav.md-nav--secondary:nth-child(1) > label:nth-child(1) {
 /* heading spacing */
 .md-typeset h1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
     font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    text-align: center;
 }
 
-.md-typeset h2,
-.md-typeset h3,
-.md-typeset h4,
-.md-typeset h5,
+.md-typeset h2 {
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+
+.md-typeset h3 {
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+
+.md-typeset h4 {
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+
+.md-typeset h5 {
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+
 .md-typeset h6 {
     margin-top: 50px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
 }
 
 /* inline code */
@@ -218,4 +292,16 @@ div.md-header__topic:nth-child(2) > span:nth-child(1) {
     margin-bottom: 2rem;
     min-width: 10rem;
     max-height: 10rem;
+}
+
+.md-code__button {
+    color: white !important;
+}
+
+.md-code__button:hover {
+    color: #526cfe !important;
+}
+
+.md-typeset pre code:hover .md-code__button {
+    color: white !important;
 }

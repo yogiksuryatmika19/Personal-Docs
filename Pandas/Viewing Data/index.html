@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/Machine%20Learning/Sorting%20Data/">
+        <link rel="canonical" href="https://mydomain.org/mysite/Pandas/Viewing%20Data/">
       
       
-        <link rel="prev" href="../Rename%20Column/">
+        <link rel="prev" href="../Read%20File/">
       
       
-        <link rel="next" href="../../Pandas/Read%20File/">
+        <link rel="next" href="../../Python/Library%20Setup/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Sorting Data - Yogi Suryatmika</title>
+        <title>Viewing Data - Yogi Suryatmika</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#by-column-ascending" class="md-skip">
+        <a href="#head" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sorting Data
+              Viewing Data
             
           </span>
         </div>
@@ -507,10 +507,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#by-column-ascending" class="md-nav__link">
+  <a href="#head" class="md-nav__link">
     <span class="md-ellipsis">
       
-        by Column (Ascending)
+        Head
       
     </span>
   </a>
@@ -518,10 +518,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#by-column-descending" class="md-nav__link">
+  <a href="#tail" class="md-nav__link">
     <span class="md-ellipsis">
       
-        by Column (Descending)
+        Tail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#info-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Info Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nan-per-column" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NaN per Column
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jumlah-row-duplicated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jumlah Row Duplicated
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#row-row-yang-duplicated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Row-row yang Duplicated
       
     </span>
   </a>
@@ -551,10 +595,26 @@
 
 
 
-  <h1>Sorting Data</h1>
+  <h1>Viewing Data</h1>
 
-<h2 id="by-column-ascending">by Column (Ascending)<a class="headerlink" href="#by-column-ascending" title="Permanent link">&para;</a></h2>
-<h2 id="by-column-descending">by Column (Descending)<a class="headerlink" href="#by-column-descending" title="Permanent link">&para;</a></h2>
+<h2 id="head">Head<a class="headerlink" href="#head" title="Permanent link">&para;</a></h2>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="tail">Tail<a class="headerlink" href="#tail" title="Permanent link">&para;</a></h2>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="info-data">Info Data<a class="headerlink" href="#info-data" title="Permanent link">&para;</a></h2>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="nan-per-column">NaN per Column<a class="headerlink" href="#nan-per-column" title="Permanent link">&para;</a></h2>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">df</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="jumlah-row-duplicated">Jumlah Row Duplicated<a class="headerlink" href="#jumlah-row-duplicated" title="Permanent link">&para;</a></h2>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">keep</span><span class="o">=</span><span class="kc">False</span><span class="p">)]</span>
+</span></code></pre></div>
+<h2 id="row-row-yang-duplicated">Row-row yang Duplicated<a class="headerlink" href="#row-row-yang-duplicated" title="Permanent link">&para;</a></h2>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">keep</span><span class="o">=</span><span class="kc">False</span><span class="p">)]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+</span></code></pre></div>
 
 
 
